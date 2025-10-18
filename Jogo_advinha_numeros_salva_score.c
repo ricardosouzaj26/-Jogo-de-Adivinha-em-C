@@ -21,11 +21,11 @@ int main()
 
         if (tentativa < Numero_Secreto)
         {
-            printf("\nO número secreto é MENOR que %d\n", tentativa);
+            printf("\nO número secreto é MAIOR que %d\n", tentativa);
         }
         if (tentativa > Numero_Secreto)
         {
-            printf("\nO número secreto é MAIOR que %d\n", tentativa);
+            printf("\nO número secreto é MENOR que %d\n", tentativa);
         }
 
         contador++;
@@ -61,4 +61,5 @@ int main()
 
     return 0;
 }
+
 
